@@ -8,5 +8,6 @@ spec:
   type: NodePort
   ports:
     - port: 8000
+      nodePort: 30081
   selector:
     app: karsajobs-ui
